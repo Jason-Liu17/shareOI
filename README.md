@@ -21,6 +21,42 @@
 
 > 详细文档请参考 [GitHub Copilot 官方文档](https://docs.github.com/zh/copilot)。
 
+## 在 OpenClaw 中使用 GitHub Copilot
+
+[OpenClaw](https://github.com/openclaw/openclaw) 是一个开源 AI 助手平台，原生支持 GitHub Copilot 作为模型提供商。
+
+### 方法一：内置 GitHub Copilot 提供商（推荐）
+
+通过设备登录流程授权 GitHub 账号，无需手动管理 Token：
+
+```bash
+openclaw models auth login-github-copilot
+```
+
+按照提示访问显示的网址并输入一次性代码完成登录，然后设置默认模型：
+
+```bash
+openclaw models set github-copilot/gpt-4o
+```
+
+### 方法二：通过 Copilot Proxy 插件（适合已在 VS Code 使用 Copilot 的用户）
+
+1. 在 VS Code 中安装并启动 **Copilot Proxy** 扩展。
+2. 在 OpenClaw 中启用该插件并重启 Gateway：
+   ```bash
+   openclaw plugins enable copilot-proxy
+   ```
+3. 登录并设为默认提供商：
+   ```bash
+   openclaw models auth login --provider copilot-proxy --set-default
+   ```
+4. （可选）设置默认模型：
+   ```bash
+   openclaw models set copilot-proxy/gpt-4o
+   ```
+
+> 运行期间需保持 VS Code 中的 Copilot Proxy 扩展处于活跃状态。更多详情请参考 [OpenClaw 官方文档](https://docs.openclaw.ai/providers/github-copilot)。
+
 ## 目录
 
     ├── 其它
