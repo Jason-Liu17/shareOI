@@ -13,6 +13,14 @@
 ## 推荐阅读
 [洛谷日报](https://www.luogu.com.cn/discuss/show/179788) | [OI-wiki](https://github.com/OI-wiki/OI-wiki/) | [OIslide by n+e](https://github.com/Trinkle23897/oi_slides) | [OIslide by huzecong](https://github.com/huzecong/oi-slides) | [NOIP吧资料](http://tieba.baidu.com/p/3257519559)
 
+## 如何获取 GitHub Copilot Key
+
+1. 注册或登录 [GitHub](https://github.com) 账号。
+2. 访问 [GitHub Copilot 订阅页面](https://github.com/features/copilot)，开通个人或团队订阅（提供免费试用和付费套餐）。
+3. 在 IDE（如 VS Code）中安装 GitHub Copilot 插件，并通过 OAuth 授权你的 GitHub 账号即可使用。
+
+> 详细文档请参考 [GitHub Copilot 官方文档](https://docs.github.com/zh/copilot)。
+
 ## 目录
 
     ├── 其它
