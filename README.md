@@ -10,6 +10,18 @@
 
 [hzwer](https://github.com/hzwer) | [P2Oileen](https://github.com/P2Oileen) | [Ruanxingzhi](https://github.com/Ruanxingzhi) | [Trinkle23897](https://github.com/Trinkle23897) | [StudyingFather](https://github.com/StudyingFather) | [namasikanam](https://github.com/namasikanam)
 
+## 常见问题
+
+### @instructkr/claw-code 是 Claude 的开源代码吗？
+
+**不是。** `@instructkr/claw-code` 并非 Anthropic 官方发布的 Claude 开源代码。
+
+**背景：** 2026 年 3 月 31 日，Anthropic 在发布 `@anthropic-ai/claude-code` npm 包时，意外将包含完整 TypeScript 源码（超过 51.2 万行）的 source map 文件一并发布。研究人员随即将其镜像至 GitHub。Anthropic 随后下架了相关版本并发出 DMCA 声明。
+
+`@instructkr/claw-code` 是一个**社区驱动的全新实现**，作者声明其代码并非直接复制泄漏的源码，而是参考 Claude Code 的公开架构描述从零编写，采用 MIT 开源协议。
+
+**重要提示：** Anthropic 的 Claude Code 源码本身仍属专有代码，泄漏版本并未获得官方授权开源。基于泄漏代码进行分发或二次开发存在法律风险。
+
 ## 推荐阅读
 [洛谷日报](https://www.luogu.com.cn/discuss/show/179788) | [OI-wiki](https://github.com/OI-wiki/OI-wiki/) | [OIslide by n+e](https://github.com/Trinkle23897/oi_slides) | [OIslide by huzecong](https://github.com/huzecong/oi-slides) | [NOIP吧资料](http://tieba.baidu.com/p/3257519559)
 
